@@ -41,7 +41,7 @@ public class QuestionController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request,response);
     }
-    //生成对应科目卷子集
+    //生成对应科目卷子集。。。
     private void getPaperQuestion(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //获取科目名
         String paper = req.getParameter("paper");
